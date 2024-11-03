@@ -1,0 +1,19 @@
+[project]
+name = "pdm_to_requietements"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "dalopeza98", email = "david.lopeza98@gmail.com"},
+]
+dependencies = [
+    "streamlit>=1.39.0",
+    "openai>=1.53.0",
+    "python-dotenv>=1.0.1",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
